@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automonitoramento Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Automonitoramento - Plano Alimentar</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Itens</th>
+                <th colspan="7">Semana 1</th>
+                <th colspan="7">Semana 2</th>
+                <th colspan="7">Semana 3</th>
+                <th colspan="7">Semana 4</th>
+            </tr>
+            <tr>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sáb</th>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sáb</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Café da Manhã</td>
+                <!-- Semana 1 -->
+                <td><input type="checkbox" id="cafe_sem1_dom"></td>
+                <td><input type="checkbox" id="cafe_sem1_seg"></td>
+                <td><input type="checkbox" id="cafe_sem1_ter"></td>
+                <td><input type="checkbox" id="cafe_sem1_qua"></td>
+                <td><input type="checkbox" id="cafe_sem1_qui"></td>
+                <td><input type="checkbox" id="cafe_sem1_sex"></td>
+                <td><input type="checkbox" id="cafe_sem1_sab"></td>
+                <!-- Semana 2 -->
+                <td><input type="checkbox" id="cafe_sem2_dom"></td>
+                <td><input type="checkbox" id="cafe_sem2_seg"></td>
+                <td><input type="checkbox" id="cafe_sem2_ter"></td>
+                <td><input type="checkbox" id="cafe_sem2_qua"></td>
+                <td><input type="checkbox" id="cafe_sem2_qui"></td>
+                <td><input type="checkbox" id="cafe_sem2_sex"></td>
+                <td><input type="checkbox" id="cafe_sem2_sab"></td>
+                <!-- Semana 3 -->
+                <td><input type="checkbox" id="cafe_sem3_dom"></td>
+                <td><input type="checkbox" id="cafe_sem3_seg"></td>
+                <td><input type="checkbox" id="cafe_sem3_ter"></td>
+                <td><input type="checkbox" id="cafe_sem3_qua"></td>
+                <td><input type="checkbox" id="cafe_sem3_qui"></td>
+                <td><input type="checkbox" id="cafe_sem3_sex"></td>
+                <td><input type="checkbox" id="cafe_sem3_sab"></td>
+                <!-- Semana 4 -->
+                <td><input type="checkbox" id="cafe_sem4_dom"></td>
+                <td><input type="checkbox" id="cafe_sem4_seg"></td>
+                <td><input type="checkbox" id="cafe_sem4_ter"></td>
+                <td><input type="checkbox" id="cafe_sem4_qua"></td>
+                <td><input type="checkbox" id="cafe_sem4_qui"></td>
+                <td><input type="checkbox" id="cafe_sem4_sex"></td>
+                <td><input type="checkbox" id="cafe_sem4_sab"></td>
+            </tr>
+            <tr>
+                <td>Colação</td>
+                <td><input type="checkbox" id="cafe_sem1_dom"></td>
+                <td><input type="checkbox" id="cafe_sem1_seg"></td>
+                <td><input type="checkbox" id="cafe_sem1_ter"></td>
+                <td><input type="checkbox" id="cafe_sem1_qua"></td>
+                <td><input type="checkbox" id="cafe_sem1_qui"></td>
+                <td><input type="checkbox" id="cafe_sem1_sex"></td>
+                <td><input type="checkbox" id="cafe_sem1_sab"></td>
+                <!-- Semana 2 -->
+                <td><input type="checkbox" id="cafe_sem2_dom"></td>
+                <td><input type="checkbox" id="cafe_sem2_seg"></td>
+                <td><input type="checkbox" id="cafe_sem2_ter"></td>
+                <td><input type="checkbox" id="cafe_sem2_qua"></td>
+                <td><input type="checkbox" id="cafe_sem2_qui"></td>
+                <td><input type="checkbox" id="cafe_sem2_sex"></td>
+                <td><input type="checkbox" id="cafe_sem2_sab"></td>
+                <!-- Semana 3 -->
+                <td><input type="checkbox" id="cafe_sem3_dom"></td>
+                <td><input type="checkbox" id="cafe_sem3_seg"></td>
+                <td><input type="checkbox" id="cafe_sem3_ter"></td>
+                <td><input type="checkbox" id="cafe_sem3_qua"></td>
+                <td><input type="checkbox" id="cafe_sem3_qui"></td>
+                <td><input type="checkbox" id="cafe_sem3_sex"></td>
+                <td><input type="checkbox" id="cafe_sem3_sab"></td>
+                <!-- Semana 4 -->
+                <td><input type="checkbox" id="cafe_sem4_dom"></td>
+                <td><input type="checkbox" id="cafe_sem4_seg"></td>
+                <td><input type="checkbox" id="cafe_sem4_ter"></td>
+                <td><input type="checkbox" id="cafe_sem4_qua"></td>
+                <td><input type="checkbox" id="cafe_sem4_qui"></td>
+                <td><input type="checkbox" id="cafe_sem4_sex"></td>
+                <td><input type="checkbox" id="cafe_sem4_sab"></td>
+            </tr>
+            <tr>
+                <td>Almoço</td>
+                <!-- Repetir mesma lógica de checkbox para almoço -->
+            </tr>
+            <tr>
+                <td>Lanche</td>
+                <!-- Repetir mesma lógica de checkbox para lanche -->
+            </tr>
+            <tr>
+                <td>Jantar</td>
+                <!-- Repetir mesma lógica de checkbox para jantar -->
+            </tr>
+            <tr>
+                <td>Ceia</td>
+                <!-- Repetir mesma lógica de checkbox para ceia -->
+            </tr>
+            <tr>
+                <td>Refeição Livre</td>
+                <!-- Repetir mesma lógica de checkbox para refeição livre -->
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        const dados = {};
+
+        document.querySelectorAll("input[type='checkbox']").forEach(checkbox => {
+            checkbox.addEventListener("change", (event) => {
+                const id = event.target.id;
+                const status = event.target.checked ? "Realizado" : "Não Realizado";
+                dados[id] = status;
+                console.log(dados); // Apenas para fins de depuração
+            });
+        });
+    </script>
+</body>
+</html>
